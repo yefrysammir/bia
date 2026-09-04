@@ -1,0 +1,101 @@
+[
+  {
+    "id": "PROD-001",
+    "code": "ZAP-001",
+    "name": "Zapatillas Deportivas Pro",
+    "category": "Calzado",
+    "price": 89.99,
+    "discount": 15,
+    "currency": "PEN",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=400&fit=crop"
+    ],
+    "description": "Zapatillas deportivas de alta performance con tecnologia de amortiguacion avanzada.",
+    "features": ["Tecnologia Air Cushion", "Suela antideslizante", "Material transpirable", "Peso ligero: 280g"],
+    "stock": 24,
+    "badge": "Mas vendido"
+  },
+  {
+    "id": "PROD-002",
+    "code": "CAM-002",
+    "name": "Camiseta Premium Algodon",
+    "category": "Ropa",
+    "price": 34.50,
+    "discount": 0,
+    "currency": "PEN",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop",
+    "gallery": ["https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400&h=400&fit=crop"],
+    "description": "Camiseta de algodon organico 100% con corte moderno y acabados de alta calidad.",
+    "features": ["Algodon organico 100%", "Corte slim fit", "Resistente a lavados", "Etiqueta sin costuras"],
+    "stock": 45,
+    "badge": "Nuevo"
+  },
+  {
+    "id": "PROD-003",
+    "code": "REL-003",
+    "name": "Reloj Inteligente FitPro",
+    "category": "Tecnologia",
+    "price": 129.00,
+    "discount": 20,
+    "currency": "PEN",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=400&h=400&fit=crop"
+    ],
+    "description": "Smartwatch con monitor de ritmo cardiaco, GPS integrado y resistencia al agua IP68.",
+    "features": ["Pantalla AMOLED 1.4pulg", "GPS + GLONASS", "Resistencia IP68", "7 dias de bateria"],
+    "stock": 12,
+    "badge": "Oferta"
+  },
+  {
+    "id": "PROD-004",
+    "code": "AUD-004",
+    "name": "Auriculares Bluetooth Elite",
+    "category": "Tecnologia",
+    "price": 59.99,
+    "discount": 10,
+    "currency": "PEN",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+    "gallery": ["https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop"],
+    "description": "Auriculares inalambricos con cancelacion de ruido activa y sonido Hi-Res.",
+    "features": ["ANC Activa", "Bluetooth 5.3", "30h de autonomia", "Carga rapida USB-C"],
+    "stock": 8,
+    "badge": ""
+  },
+  {
+    "id": "PROD-005",
+    "code": "BOL-005",
+    "name": "Bolso de Cuero Genuino",
+    "category": "Accesorios",
+    "price": 145.00,
+    "discount": 0,
+    "currency": "PEN",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=400&fit=crop",
+    "gallery": [
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=400&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=400&h=400&fit=crop"
+    ],
+    "description": "Bolso artesanal elaborado en cuero vacuno genuino con herrajes de bronce.",
+    "features": ["Cuero vacuno 100%", "Herrajes de bronce", "Forro interior de tela", "Bolsillo con cierre"],
+    "stock": 6,
+    "badge": "Edicion limitada"
+  },
+  {
+    "id": "PROD-006",
+    "code": "GAF-006",
+    "name": "Gafas de Sol Polarizadas",
+    "category": "Accesorios",
+    "price": 42.00,
+    "discount": 25,
+    "currency": "PEN",
+    "image": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=400&fit=crop",
+    "gallery": ["https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=400&fit=crop"],
+    "description": "Gafas de sol con lentes polarizadas UV400 y montura ultraligera de acetato.",
+    "features": ["Lentes polarizadas UV400", "Montura acetato", "Estuche rigido incluido", "Peso: 28g"],
+    "stock": 18,
+    "badge": "Oferta"
+  }
+]
