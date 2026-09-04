@@ -1,0 +1,18 @@
+{
+  "name": "bia-store",
+  "version": "2.0.0",
+  "description": "Tienda online",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build needed'",
+    "start": "vercel start",
+    "deploy": "vercel --prod"
+  },
+  "keywords": ["tienda", "ecommerce", "whatsapp", "pwa", "google-sheets"],
+  "author": "yeeseaye",
+  "license": "MIT",
+  "devDependencies": {
+    "vercel": "^32.0.0"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@vercel/node"
+    },
+    {
+      "src": "index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/**",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
+    }
+  ],
+  "env": {
+    "GOOGLE_SHEET_ID": "@google_sheet_id",
+    "GOOGLE_API_KEY": "@google_api_key",
+    "WHATSAPP_NUMBER": "@whatsapp_number",
+    "APP_NAME": "@app_name",
+    "CURRENCY": "@currency",
+    "CURRENCY_SYMBOL": "@currency_symbol"
+  }
+}
